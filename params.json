@@ -1,0 +1,6 @@
+{
+  "name": "Artifactory-jmx-beans",
+  "tagline": "Utilize Artifactory JMX beans for monitoring purpose",
+  "body": "# artifactory-jmx-beans\r\nUtilize Artifactory JMX beans for monitoring purpose\r\n\r\n## Standup docker Artifactory OSS instance\r\n\r\n`docker build -t artifactory .`\r\n\r\n`docker run -d -p 8080:8081 -p 9010:9010 -t artifactory`\r\n\r\n## Connect to Artifactory JMX Remote using [jmxterm](http://wiki.cyclopsgroup.org/jmxterm/download.html)\r\n\r\n```\r\n$ java -jar jmxterm-1.0-alpha-4-uber.jar\r\nWelcome to JMX terminal. Type \"help\" for available commands.\r\n$>open localhost:9010\r\n#Connection to localhost:9010 is opened\r\n$>bye\r\n#bye\r\n$\r\n```\r\n\r\n## Script jmxterm commands to get JMX beans attributes\r\n\r\n`./artifactory_jmx_beans.sh`\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
