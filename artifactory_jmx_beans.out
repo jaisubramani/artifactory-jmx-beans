@@ -1,0 +1,165 @@
+[type=Executor Pools,instance=Artifactory,prop=Task Service]
+CorePoolSize = 16;
+
+MaximumPoolSize = 16;
+
+ActiveCount = 0;
+
+LargestPoolSize = 16;
+
+TaskCount = 338;
+
+CompletedTaskCount = 338;
+
+[type=HTTPConnectionPool,instance=Artifactory,prop=SumoLogicServiceImpl]
+Leased = 0;
+
+Pending = 0;
+
+Max = 50;
+
+Available = 0;
+
+[type=HTTPConnectionPool,instance=Artifactory,prop=jcenter]
+Leased = 0;
+
+Pending = 0;
+
+Max = 50;
+
+Available = 0;
+
+[type=Repositories,instance=Artifactory,prop=ext-release-local]
+ArtifactsTotalSize = 0;
+
+RepositoryKey = ext-release-local;
+
+ArtifactsCount = 0;
+
+[type=Repositories,instance=Artifactory,prop=ext-snapshot-local]
+ArtifactsTotalSize = 0;
+
+RepositoryKey = ext-snapshot-local;
+
+ArtifactsCount = 0;
+
+[type=Repositories,instance=Artifactory,prop=jcenter-cache]
+ArtifactsTotalSize = 0;
+
+RepositoryKey = jcenter-cache;
+
+ArtifactsCount = 0;
+
+[type=Repositories,instance=Artifactory,prop=libs-release-local]
+ArtifactsTotalSize = 0;
+
+RepositoryKey = libs-release-local;
+
+ArtifactsCount = 0;
+
+[type=Repositories,instance=Artifactory,prop=libs-snapshot-local]
+ArtifactsTotalSize = 0;
+
+RepositoryKey = libs-snapshot-local;
+
+ArtifactsCount = 0;
+
+[type=Repositories,instance=Artifactory,prop=plugins-release-local]
+ArtifactsTotalSize = 0;
+
+RepositoryKey = plugins-release-local;
+
+ArtifactsCount = 0;
+
+[type=Repositories,instance=Artifactory,prop=plugins-snapshot-local]
+ArtifactsTotalSize = 0;
+
+RepositoryKey = plugins-snapshot-local;
+
+ArtifactsCount = 0;
+
+[type=Storage,instance=Artifactory,prop=Binary Storage]
+Size = 0;
+
+[type=Storage,instance=Artifactory,prop=Connection Pool]
+Active = 0;
+
+Idle = 1;
+
+NumIdle = 1;
+
+NumActive = 0;
+
+WaitCount = 0;
+
+Size = 1;
+
+AccessToUnderlyingConnectionAllowed = true;
+
+DbProperties = { 
+ };
+
+AbandonWhenPercentageFull = 0;
+
+FairQueue = true;
+
+Url = jdbc:derby:/var/opt/jfrog/artifactory/data/derby;create=true;
+
+Username = null;
+
+Password = Password not available as DataSource/JMX operation.;
+
+MinEvictableIdleTimeMillis = 300000;
+
+NumTestsPerEvictionRun = 0;
+
+PoolName = Tomcat Connection Pool[2-2030398322];
+
+RemoveAbandoned = false;
+
+RemoveAbandonedTimeout = 600;
+
+TestOnBorrow = true;
+
+TestOnReturn = false;
+
+TestWhileIdle = false;
+
+TimeBetweenEvictionRunsMillis = 30000;
+
+ValidationQuery = values(1);
+
+ValidationQueryTimeout = 30;
+
+ValidatorClassName = null;
+
+Validator = null;
+
+ValidationInterval = 30000;
+
+InitSQL = null;
+
+TestOnConnect = false;
+
+JdbcInterceptors = null;
+
+[type=Storage,instance=Artifactory,prop=Data Source]
+Url = jdbc:derby:/var/opt/jfrog/artifactory/data/derby;create=true;
+
+ActiveConnectionsCount = 0;
+
+IdleConnectionsCount = 1;
+
+MaxIdle = 10;
+
+MaxWait = 120000;
+
+MinIdle = 1;
+
+SelectQueriesCount = 119;
+
+UpdateQueriesCount = 253;
+
+MaxActive = 100;
+
+[type=Traffic,instance=Artifactory]
